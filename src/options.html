@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <style>
+      label {
+        display:block;
+        margin-bottom: 1.4%;
+      }
+    </style>
+  </head>
+
+  <body>
+    
+    <form>
+        <h1>Options</h1>
+        <label>Profile Post Quoting <input type="checkbox" id="profile-quoting"/></label>
+        <label>Hide borders for in-game ranks <input type="checkbox" id="hide-rank-borders" ></label>
+        <label>Character counter <input type="checkbox" id="character-counter"></label>
+        <label>Uncensor the word "s***post" <input type="checkbox" id='uncensor'></label>
+        <label>Hide "related threads" box <input type="checkbox" id="hide-related"></label>
+        <label>Use 24 hour time <input type="checkbox" id="24-hour"></label>
+        <label>Hide IGN and Guild <input type="checkbox" id="hide-ign"></label>
+        <h2>Displayed Reactions</h2>
+        <label>Agree <input type="checkbox" class="extra-reaction" id="agree" /></label>
+        <label>Funny <input type="checkbox" class="extra-reaction" id="funny" /></label>
+        <label>Useful <input type="checkbox" class="extra-reaction" id="useful" /></label>
+        <label>Creative <input type="checkbox" class="extra-reaction" id="creative" /></label>
+        <label>Hype Train <input type="checkbox" class="extra-reaction" id="hype" /></label>
+        <label>Dislike <input type="checkbox" class="extra-reaction" id="dislike" /></label>
+        <label>Disagree <input type="checkbox" class="extra-reaction" id="disagree" /></label><br>
+
+        <button type="submit">Save</button>
+    </form>
+
+    <script src="options.js"></script>
+  </body>
+</html>

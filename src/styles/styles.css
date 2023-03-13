@@ -1,0 +1,19 @@
+
+.character-count {
+    color: white;
+    background: #999;
+    bottom: 0;
+    position:sticky;
+    float:right;
+    padding-left: 0.3%;
+    padding-right: 0.3%;
+  }
+
+.actionBar-action--quote {
+  cursor:pointer;
+}
+
+.custom-extra-reaction {
+  margin-left:10px !important;
+}
+

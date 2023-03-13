@@ -1,0 +1,3 @@
+.message-avatar-rank-VIP::after, .message-avatar-rank-VIP_PLUS::after, .message-avatar-rank-MVP::after, .message-avatar-rank-MVP_PLUS::after, .message-avatar-rank-SUPERSTAR::after, .message-avatar-rank-GAME_MASTER::after, .message-avatar-rank-YOUTUBER::after, .message-avatar-rank-ADMIN::after {
+    background-image: none !important;
+}
